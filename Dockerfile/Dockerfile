@@ -1,5 +1,5 @@
 FROM java:8
 WORKDIR /
-ADD helloworld.jar helloworld.jar
+ADD hellodocker.jar hellodocker.jar
 EXPOSE 8080
-CMD java - jar helloworld.jar
+CMD java - jar hellodocker.jar
